@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: monospace;
+}
+
+header,
+.contents,
+.quotes,
+.actions,
+footer {
+    padding: 0 20rem;
+}
+
+header {
+    background-color: #1f2937;
+}
+
+.mainheader {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0;
+}
+
+.headermenu {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 18px;
+    gap: 2rem;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+.headerlogo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.secondaryheader {
+    padding: 5rem 1rem;
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+}
+
+img {
+    width: 50%;
+    border-radius: 2rem;
+}
+
+.headercontent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.headercontent h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.headercontent p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+
+button {
+    background-color: #3883f6;
+    padding: 1rem 3rem;
+    border-radius: 1rem;
+    font-weight: 900;
+    color: #f9faf8;
+    font-size: 18px;
+    border: none;
+}
+
+.contents {
+    display: flex;
+    flex-direction: column;
+    padding: 5rem 0;
+    gap: 2rem;
+}
+
+.card-s {
+    display: flex;
+    justify-content:center;
+    gap: 5rem;
+}
+
+.card {
+    width: 10rem;
+    height: 10rem;
+    border: 1px solid #eee;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+    border-radius: 1rem;
+}
+
+.contents h1 {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    align-self: center;
+}
+
+.quotes {
+    background-color: #e5e7eb;
+}
+
+blockquote p {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: lighter;
+    padding: 5rem;
+}
+
+footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    font-size: 18px;
+    text-align: center;
+}
+
+footer p {
+    padding: 1rem;
+}
+
+.actions {  
+    display: flex;
+    justify-content: space-around;
+    margin: 5rem 20rem;
+    padding: 2rem;
+    background-color: #3883f6;
+    align-items: center;
+    border-radius: 1rem;
+}
+
+.action-text {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: space-between;
+}
+
+.actions button {
+    border: 4px solid #f9faf8;
+}
